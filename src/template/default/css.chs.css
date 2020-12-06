@@ -1,0 +1,9 @@
+﻿*{font-size:14px;font-family: "PingFang SC", "Noto Sans CJK", "Source Han Sans", "Microsoft Yahei", source-han-sans-simplified-c, sans-serif;}
+body{background:#808080;}
+
+.btn-link, .btn-link:hover, .btn-link:active, .btn-link:visited{background-color: #404040 !important;color: #F0F0F0 !important;}
+
+.main-width{width:1200px !important;}
+.main-bar{border-top:6px solid #808080;background-color:#808080;}
+.text-special,.text-special:hover{font-size:12px;color:#C0C0C0;}
+.text-barinfo,.text-barinfo:hover{font-size:13px;color:#E0E0E0;}

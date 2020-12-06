@@ -1,0 +1,29 @@
+RewriteEngine on
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]*)\.php$ page.php [END]
+
+
+
+RewriteRule ^$ index.html
+
+RewriteRule ^([^/]*)\.html$ page/%{HTTP_HOST}/$0
+
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^page/(.*)$ - [END]
+
+RewriteRule ^page/(.*)$ bufferpage.php?%{QUERY_STRING} [END]
+
+
+
+RewriteRule ^files/(.*)$ source/%{HTTP_HOST}/$1
+
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^source/(.*)$ - [END]
+
+RewriteRule ^source/(.*)$ bufferfile.php [END]

@@ -1,0 +1,14 @@
+*{font-size:14px;font-family: "PingFang SC", "Noto Sans CJK", "Source Han Sans", "Microsoft Yahei", source-han-sans-simplified-c, sans-serif;}
+body{background:#404040;}
+
+.main-title{background:#F8F8F8;border-bottom:1px solid #E0E0E0;}
+.main-content{background:#FFFFFF;}
+.main-infobar{background:#FFFFFF;}
+.main-infobox{background:#FFFFFF;}
+.main-bar{border-top:6px solid #808080;height:200px;}
+.text-small{font-size:13px;}
+.text-large{font-size:15px;}
+.text-special,.text-special:hover{font-size:12px;color:#808080;}
+
+.box-normal{padding:50px;}
+.box-group{width:400px;}

@@ -1,0 +1,1 @@
+lan.art.inventory_tip = "查看商品下的所有库存";

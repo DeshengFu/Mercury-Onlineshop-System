@@ -1,0 +1,41 @@
+lan.user = new Object();
+
+lan.user.title = "用户查找";
+lan.user.id = "用户编号";
+lan.user.email = "注册邮箱";
+lan.user.state = "用户状态";
+lan.user.state0 = "验证状态";
+lan.user.state1 = "锁定状态";
+lan.user.balance = "账户余额";
+lan.user.point = "用户积分";
+lan.user.resource = "可分配资源";
+lan.user.register_time = "注册时间";
+lan.user.update_time = "最后更新时间";
+lan.user.access_time = "最近访问时间";
+lan.user.order_time = "最近订单时间";
+lan.user.remark = "用户备注";
+lan.user.empty = "没有符合条件的用户。";
+lan.user.add = "添加用户";
+lan.user.del = "删除用户";
+lan.user.del_tip = "删除用户的操作无法被恢复，您确定要继续吗？";
+lan.user.edit = "编辑用户";
+lan.user.xedit = "调整财务信息";
+lan.user.edit_address = "地址管理";
+lan.user.chgpass = "修改用户密码";
+lan.user.show = "查看详细信息";
+lan.user.charge = "使用礼券";
+lan.user.send = "发送邮件";
+lan.user.exp = "导出所有查找结果";
+lan.user.record_tip = "查看用户下的所有记录";
+lan.user.order_tip = "查看用户下的所有订单";
+lan.user.transaction_tip = "查看用户下的所有交易";
+
+lan.user.info = new Array();
+lan.user.info[0] = "如果您使用模糊匹配模式查找字符串，您应当遵循MySQL字符串比较语法输入要查找的内容，更多细节请参考相关文档。请注意系统通常使用专门格式保存特殊字符，匹配特殊字符可能无法找到对应的记录。";
+lan.user.info[1] = "此页面采用了多层缓存技术，如果您希望确保获取最新数据请使用浏览器的刷新功能刷新此页面。";
+
+lan.user.err = new Array();
+lan.user.err[0] = "您填写的起始用户编号无效！";
+lan.user.err[1] = "您填写的截止用户编号无效！";
+lan.user.err[2] = "您填写的用户编号范围无效！";
+lan.user.err[3] = "您填写的注册邮箱无效！";

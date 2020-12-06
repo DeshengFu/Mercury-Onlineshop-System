@@ -1,0 +1,1 @@
+lan.tsa.inventory_tip = "查看交易对应的库存";
